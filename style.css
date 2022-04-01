@@ -1,0 +1,42 @@
+body{
+    background-color: #131516;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol, ul{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    
+}
+li{
+    color: white;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.nome{
+    font-family: 'Montserrat', sans-serif;
+}
+.descricao{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.texto{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: inherit;
+    font-weight: bold;
+}
+
