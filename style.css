@@ -1,42 +1,76 @@
-body{
-    background-color: #131516;
-    color: white;
-    line-height: 35px;
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
     text-align: center;
-    margin: 0 auto;  
 }
+#topo{
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-ol, ul{
+    height: 230px;
     text-align: center;
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-variant: small-caps;
-    font-weight: bold;
-    
 }
-li{
-    color: white;
-    font-size: 28px;
-    line-height: 40px;
+#topo-1{
+    float: left;
+    padding: 20px;
+    height: 200px;
+
+    text-align: center;
+    display: inline-block;
+    margin-left: 30%;
 }
 
-.nome{
-    font-family: 'Montserrat', sans-serif;
+#topo-2{
+
+    float: left;
 }
-.descricao{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 40px;
+#topo-2 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 }
 
-.texto{
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    font-variant: inherit;
-    font-weight: bold;
+#conteudo{
+    height: 400px;
+    width: 50%;
+
+}
+#conteudo p{
+    text-align: justify;
 }
 
+.img1 img{
+    transform: translateX(-0%) translateY(-10%);
+}
+
+#imagens{
+
+    height: 600px;
+    width: 50%;
+    padding: 5px;
+}
+
+.img1{
+    float: left;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+#habilidades{
+    width: 50%;
+    height: 140px;
+
+    padding: 10px;
+}
+#habilidades h2{
+    margin-left: 30px;
+}
+
+.habilidades li{
+    text-align: center;
+    list-style: none;
+}
+#sumario li{
+    list-style: none;
+}
+#sumario a{
+    text-decoration: none;;
+}
