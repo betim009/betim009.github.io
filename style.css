@@ -2,35 +2,53 @@
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+    background-color: #CDCDCD
 }
-#topo{
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
-    height: 230px;
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#global{
+    width: 768px;
+    height: 1024px;
+}
+
+#topo{
+    height: 150px;
     text-align: center;
+
+    padding: 20px;
 }
 #topo-1{
     float: left;
-    padding: 20px;
-    height: 200px;
-
+    padding: 10px;
     text-align: center;
-    display: inline-block;
-    margin-left: 30%;
+    margin-left: 20%;
+    line-height: 30px;
 }
 
 #topo-2{
-
     float: left;
 }
 #topo-2 img{
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
 #conteudo{
-    height: 400px;
-    width: 50%;
+    margin-top: 10px;
+    padding: 6px;
+    height: 700px;
+    width: 70%;
 
 }
 #conteudo p{
@@ -43,34 +61,52 @@
 
 #imagens{
 
-    height: 600px;
-    width: 50%;
+    height: 800px;
+    width: 70%;
     padding: 5px;
+    margin: 0 auto;;
 }
 
 .img1{
     float: left;
     overflow: hidden;
-    margin-left: 10%;
+    margin: 0 auto;
+    clear: both;
+    height: 510px;
 }
+
+.img3{
+    float: left;
+    overflow: hidden;
+    margin: 5px;
+}
+
 
 #habilidades{
     width: 50%;
-    height: 140px;
-
+    height: 180px;
+    line-height: 30px;
     padding: 10px;
 }
 #habilidades h2{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .habilidades li{
     text-align: center;
     list-style: none;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#sumario{
+    height: 180px;
 }
 #sumario li{
     list-style: none;
+    line-height: 40px;
 }
 #sumario a{
-    text-decoration: none;;
+    text-decoration: none;
+    color: #3d5a80;
+    font-size: 18px;
 }
