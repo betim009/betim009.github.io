@@ -11,7 +11,7 @@ import imagePerfil from './img/perfil.jpg'
 
 
 function Home() {
-    const [stacks, setStacks] = useState(['JavaScript', 'Node.js', 'Linux', 'React.js', 'MySql']);
+    const [stacks, setStacks] = useState(['JavaScript', 'Node.js', 'Linux', 'React.js', 'MySql', 'Boostrap']);
 
     return (
         <div>
