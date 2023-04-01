@@ -1,15 +1,19 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import './Header.css';
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+    <Navbar className="custom-navbar" bg="dark" variant="dark" expand="md">
+      <Navbar.Brand href="#home">Alberto Fernandes Couto</Navbar.Brand>
+      <Navbar.Toggle className="primary" aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link href="#about">Sobre</Nav.Link>
+          <Nav.Link href="#contact">Contato</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

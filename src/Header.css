@@ -1,0 +1,25 @@
+.custom-navbar .navbar-nav .nav-link {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    color: white;
+  }
+  
+  .custom-navbar .navbar-toggler-icon span {
+    background-color: white;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 24px;
+    margin-left: 5%;
+  }
+  
+  @media (max-width: 767px) {
+    .custom-navbar .navbar-nav {
+      margin-left: auto;
+      margin-right: 5%;
+    }
+  }
+  
