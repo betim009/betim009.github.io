@@ -1,6 +1,8 @@
-# Modelo de Portfólio criado no estudos da trybe. 
+# Meu Portfólio.
 
 
-link para acesso: https://betim009.github.io/
+## link para acesso: 
+  (https://betim009.github.io/)
 
-clone o projeto: git@github.com:betim009/betim009.github.io.git
+## clone o projeto: 
+git clone git@github.com:betim009/betim009.github.io.git
