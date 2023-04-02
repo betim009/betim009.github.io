@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import _home from './Home.css';
+import home from './Home.css';
 
-import image from './img/15-cafe.jpg';
 import image6 from './img/img6.jpeg';
 import image2 from './img/img2.jpg';
 import image3 from './img/img3.jpg';
-import image4 from './img/img4.jpg';
+import image4 from './img/image.png';
 import image5 from './img/img5.jpg';
+import image7 from './img/pedraoxa2.jpeg'
 
 
 
@@ -23,7 +23,7 @@ function Home() {
         ]);
 
     return (
-        <div>
+        <div style={{backgroundColor:"#F4F4F4"}} >
             <main className="container p-5">
                 <section id="about">
                     <h2>Sobre</h2>
@@ -45,8 +45,8 @@ function Home() {
                         <br></br>
                         Se você está procurando um desenvolvedor de software motivado, dedicado e apaixonado,
                         não hesite em entrar em contato comigo!
-                        Você pode encontrar meu portfólio no GitHub em <a href="https://github.com/betim009">github.com/betim009</a>
-                        ou me seguir no Instagram em <a href="https://www.instagram.com/albertofernandescouto/">@albertofernandescouto</a>.
+                        Você pode encontrar meu portfólio no GitHub em <a href="https://github.com/betim009">github.com/betim009</a> ou
+                        me seguir no Instagram em <a href="https://www.instagram.com/albertofernandescouto/">@albertofernandescouto</a>.
                     </p>
                     <div className="bg-dark p-4">
                         <h2 className="text-light mb-4">Stacks:</h2>
@@ -67,11 +67,11 @@ function Home() {
                 <section className="mt-5" id="gallery">
                     <h2>Meu mundo</h2>
                     <div className="row gallery">
-                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image} alt="Imagem 1" /></div>
                         <div className="col-md-4 col-sm-6 gallery-item"><img src={image2} alt="Imagem 3" /></div>
-                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image3} alt="Imagem 4" /></div>
-                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image4} alt="Imagem 5" /></div>
-                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image5} alt="Imagem 6" /></div>
+                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image5} alt="Imagem 4" /></div>
+                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image3} alt="Imagem 1" /></div>
+                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image4} alt="Imagem 6" /></div>
+                        <div className="col-md-4 col-sm-6 gallery-item"><img src={image7} alt="Imagem 5" /></div>
                         <div className="col-md-4 col-sm-6 gallery-item"><img src={image6} alt="Imagem 2" /></div>
                     </div>
                 </section>

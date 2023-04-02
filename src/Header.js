@@ -4,18 +4,20 @@ import './Header.css';
 
 function Header() {
   return (
-    <Navbar className="custom-navbar" bg="dark" variant="dark" expand="md">
-      <div className="mx-auto d-flex align-items-center">
-        <Navbar.Brand style={{fontSize:'24px'}} href="#home" className="text-center name">Alberto Fernandes Couto</Navbar.Brand>
-      </div>
-      <Navbar.Toggle className="primary" aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto">
-          <Nav.Link href="#about" className="text-center">Sobre</Nav.Link>
-          <Nav.Link href="#contact" className="text-center">Contato</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <header>
+      <Navbar expand="lg" bg="dark" variant="dark" className="navbar-custom">
+        <div className="container">
+          <Navbar.Brand style={{fontSize:'24px'}} href="#home" className="name">Alberto Fernandes Couto</Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarNav" />
+          <Navbar.Collapse id="navbarNav">
+            <Nav className="ml-auto">
+              <Nav.Link style={{fontSize:'24px'}} href="#about">Sobre</Nav.Link>
+              <Nav.Link style={{fontSize:'24px'}} href="#contact">Contato</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </div>
+      </Navbar>
+    </header>
   );
 }
 

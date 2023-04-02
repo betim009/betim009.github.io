@@ -2,28 +2,28 @@ import React from 'react';
 
 function Form() {
   return (
-    <div className='bg-dark'>
-      <div className="container mt-5">
+    <div id="contact"  className='bg-dark'>
+      <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div className="card bg-dark text-light">
               <div className="card-body">
                 <h2 className="text-center mb-4">Entre em contato</h2>
                 <form action="https://formspree.io/f/xknaqvpw" method="POST">
-                  <div className="form-group">
+                  <div className="form-group mb-4">
                     <label htmlFor="name">Nome</label>
-                    <input type="text" className="form-control" id="name" name="name" placeholder="Digite seu nome" />
+                    <input type="text" className="form-control mt-2" id="name" name="name" placeholder="Digite seu nome" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="email">E-mail</label>
-                    <input type="email" className="form-control" id="email" name="_replyto" placeholder="Digite seu e-mail" />
+                    <input type="email" className="form-control mt-2" id="email" name="_replyto" placeholder="Digite seu e-mail" />
                   </div>
-                  <div className="form-group">
+                  <div className="form-group mt-4">
                     <label htmlFor="message">Mensagem</label>
-                    <textarea className="form-control" id="message" name="message" rows="5" placeholder="Digite sua mensagem"></textarea>
+                    <textarea className="form-control mt-2 mb-2" id="message" name="message" rows="5" placeholder="Digite sua mensagem"></textarea>
                   </div>
                   <div className="text-center">
-                    <button type="submit" className="btn btn-primary mt-3">Enviar mensagem</button>
+                    <button type="submit" className="btn btn-dark border mt-3">Enviar mensagem</button>
                   </div>
                 </form>
               </div>
