@@ -9,7 +9,7 @@ function Form() {
             <div className="card bg-dark text-light">
               <div className="card-body">
                 <h2 className="text-center mb-4">Entre em contato</h2>
-                <form action="https://formspree.io/f/betim009@gmail.com" method="POST">
+                <form action="https://formspree.io/f/xknaqvpw" method="POST">
                   <div className="form-group">
                     <label htmlFor="name">Nome</label>
                     <input type="text" className="form-control" id="name" name="name" placeholder="Digite seu nome" />

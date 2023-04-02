@@ -5,12 +5,14 @@ import './Header.css';
 function Header() {
   return (
     <Navbar className="custom-navbar" bg="dark" variant="dark" expand="md">
-      <Navbar.Brand href="#home">Alberto Fernandes Couto</Navbar.Brand>
+      <div className="mx-auto d-flex align-items-center">
+        <Navbar.Brand style={{fontSize:'24px'}} href="#home" className="text-center name">Alberto Fernandes Couto</Navbar.Brand>
+      </div>
       <Navbar.Toggle className="primary" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#about">Sobre</Nav.Link>
-          <Nav.Link href="#contact">Contato</Nav.Link>
+        <Nav className="mx-auto">
+          <Nav.Link href="#about" className="text-center">Sobre</Nav.Link>
+          <Nav.Link href="#contact" className="text-center">Contato</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
