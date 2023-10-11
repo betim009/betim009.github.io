@@ -60,8 +60,8 @@ function Footer() {
                     <Button
                         variant="primary"
                         type="submit"
-                        className='btn-dark w-50 p-3'
-                        style={{ fontSize: '21px' }}>
+                        className='btn-dark p-3'
+                        style={{ fontSize: '21px', width: '300px' }}>
                         Enviar Mensagem
                     </Button>
                 </div>

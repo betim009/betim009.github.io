@@ -39,7 +39,7 @@ function CardComponent() {
     ];
 
     return (
-        <div className='container p-5'>
+        <div className='container p-1 mb-5'>
             <Row xs={1} md={1} className="g-4">
                 {cardContents.map((content, idx) => (
                     <Col key={idx}>
@@ -49,6 +49,7 @@ function CardComponent() {
                                 <Card.Title>{content.title}</Card.Title>
                                 <Card.Text>{content.text}</Card.Text>
                                 <a className="btn btn-dark p-2 w-50"
+                                style={{fontSize: '20px'}}
                                     href={content.link}
                                     target="_blank"
                                     rel="noopener noreferrer">
