@@ -24,7 +24,7 @@ function Footer() {
                 action="https://formspree.io/f/xknaqvpw"
                 method="POST"
                 className='bg-white m-5 p-5'
-                style={{ minWidth: "50%" }}
+                style={{ minWidth: "60%", fontSize: '21px' }}
             >
                 <Form.Group className="mb-3" controlId="name">
                     <Form.Label>Nome</Form.Label>
@@ -56,10 +56,15 @@ function Footer() {
                         onChange={handleChange}
                     />
                 </Form.Group>
-
-                <Button variant="primary" type="submit" className='bg-dark'>
-                    Enviar Mensagem
-                </Button>
+                <div className='text-center'>
+                    <Button
+                        variant="primary"
+                        type="submit"
+                        className='btn-dark w-50 p-3'
+                        style={{ fontSize: '21px' }}>
+                        Enviar Mensagem
+                    </Button>
+                </div>
             </Form>
         </div>
 
