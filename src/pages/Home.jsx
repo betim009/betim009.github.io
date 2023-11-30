@@ -7,10 +7,10 @@ function Home() {
         <div>
             <div className='bg-dark p-5 '>
                 <CardComponent />
-                <p className='text-white text-center display-5 fs-5'>
+                {/* <p className='text-white text-center display-5 fs-5'>
                     Ninguém é tão grande que não possa aprender,
                     nem tão pequeno que não possa ensinar.
-                </p>
+                </p> */}
             </div>
             <Footer />
         </div>
