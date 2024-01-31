@@ -56,14 +56,16 @@ function Footer() {
                         onChange={handleChange}
                     />
                 </Form.Group>
-                <div className='text-center'>
-                    <Button
-                        variant="primary"
-                        type="submit"
-                        className='btn-dark p-3'
-                        style={{ fontSize: '21px', width: '300px' }}>
-                        Enviar Mensagem
-                    </Button>
+                <div className='d-flex justify-content-center'>
+                    <div className='w-75'>
+                        <Button
+                            variant="primary"
+                            type="submit"
+                            className='btn-dark p-3 btn-lg'
+                            style={{ fontSize: '21px', width: '100%' }}>
+                            Enviar
+                        </Button>
+                    </div>
                 </div>
             </Form>
         </div>

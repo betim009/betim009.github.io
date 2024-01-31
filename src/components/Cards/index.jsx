@@ -44,12 +44,12 @@ function CardComponent() {
                 {cardContents.map((content, idx) => (
                     <Col className='mb-3 mt-2' key={idx}>
                         <Card className="card-css text-center">
-                            <i class={`${content.icon}`} style={{fontSize: '34px'}} />
+                            <i className={`${content.icon}`} style={{ fontSize: '34px' }} />
                             <Card.Body>
                                 <Card.Title>{content.title}</Card.Title>
                                 <Card.Text>{content.text}</Card.Text>
-                                <a className="btn btn-dark p-2 w-50"
-                                style={{fontSize: '20px'}}
+                                <a className="btn btn-dark p-2 w-50 lead"
+                                    style={{ fontSize: '20px' }}
                                     href={content.link}
                                     target="_blank"
                                     rel="noopener noreferrer">
