@@ -39,10 +39,10 @@ function CardComponent() {
     ];
 
     return (
-        <div className='container p-1 mb-5'>
-            <Row xs={1} md={1} className="g-4">
+        <div className='container'>
+            <Row xs={1} md={1} sm={1} className='gap-4'>
                 {cardContents.map((content, idx) => (
-                    <Col key={idx}>
+                    <Col className='mb-3 mt-2' key={idx}>
                         <Card className="card-css text-center">
                             <i class={`${content.icon}`} style={{fontSize: '34px'}} />
                             <Card.Body>

@@ -4,12 +4,10 @@ import Footer from '../components/Footer';
 
 function Home() {
     return (
-        <div>
-            <div className='bg-dark p-5 '>
-                <CardComponent />
-            </div>
-            <Footer />
-        </div>
+        <main className='bg-dark'>
+            <CardComponent />
+            {/* <Footer /> */}
+        </main>
     )
 };
 
