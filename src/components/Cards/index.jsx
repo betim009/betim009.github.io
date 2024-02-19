@@ -9,7 +9,7 @@ function CardComponent() {
         {
             title: 'SuperProf',
             text: 'Aulas Particulares!',
-            link: 'https://www.superprof.com.br/html-css-bootstrap-javascript-react-python-logica-programacao-algoritmos-linux-excel-planilhas-muito.html',
+            link: 'https://www.superprof.com.br/aprenda-javascript-typescript-react-python-html-css-boostrap-mysql-express-node-git-github-linux-professor.html',
             icon: 'bi bi-book-half',
         },
         {
