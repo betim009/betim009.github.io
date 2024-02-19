@@ -19,6 +19,12 @@ function CardComponent() {
             icon: 'bi bi-journal',
         },
         {
+            title: 'Discord',
+            text: 'Entre no meu discord e acesse mais informações!',
+            link: 'https://discord.gg/Uygw57as',
+            icon: 'bi bi-discord',
+        },
+        {
             title: 'LinkedIn',
             text: 'Perfil no LinkeDin!',
             link: 'https://www.linkedin.com/in/albertocouto/',
