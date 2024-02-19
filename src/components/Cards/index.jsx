@@ -13,6 +13,12 @@ function CardComponent() {
             icon: 'bi bi-book-half',
         },
         {
+            title: 'Agenda',
+            text: 'Consulte minha agenda para aulas',
+            link: 'https://agendasemanalalberto.netlify.app/',
+            icon: 'bi bi-journal',
+        },
+        {
             title: 'LinkedIn',
             text: 'Perfil no LinkeDin!',
             link: 'https://www.linkedin.com/in/albertocouto/',
