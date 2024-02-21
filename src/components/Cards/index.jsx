@@ -15,7 +15,7 @@ function CardComponent() {
         {
             title: 'Agenda',
             text: 'Consulte minha agenda para aulas',
-            link: 'https://agendasemanalalberto.netlify.app/',
+            link: 'https://albertoagenda.netlify.app/',
             icon: 'bi bi-journal',
         },
         {
