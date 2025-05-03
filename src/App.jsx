@@ -2,6 +2,7 @@ import { useState } from 'react'
 import perfil from './assets/perfil.png'
 import luisa from './assets/luisa.png'
 import pedro from './assets/pedro.png'
+import camilla from './assets/camilla.png'
 
 import {
   Container,
@@ -214,6 +215,34 @@ function App() {
                 primaryTypographyProps={{ color: 'text.primary' }}
               />
             </ListItem>
+            <ListItem
+              button
+              component="a"
+              href="https://github.com/betim009/meu_curso_javascript"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ListItemIcon><JavascriptIcon color="warning" sx={{ fontSize: 40 }} /></ListItemIcon>
+              <ListItemText
+                primary="Material JavaScript"
+                secondary="Apostila e exercícios"
+                primaryTypographyProps={{ color: 'text.primary' }}
+              />
+            </ListItem>
+            <ListItem
+              button
+              component="a"
+              href="https://github.com/betim009/meu_curso_python"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ListItemIcon><DiPython size={24} color="#306998" /></ListItemIcon>
+              <ListItemText
+                primary="Material Python"
+                secondary="Conteúdo para iniciantes"
+                primaryTypographyProps={{ color: 'text.primary' }}
+              />
+            </ListItem>
 
           </List>
         </Paper>
@@ -248,11 +277,27 @@ function App() {
           </Box>
           <Box sx={{ flex: 1 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
-              <DiPython size={24} color="#FFD43B" />
+              <DiPython size={24} color="#306998" />
               <Typography variant="subtitle2"><strong>Python</strong></Typography>
             </Box>
             <Typography variant="body2" sx={{ textAlign: 'left' }}>
               sinceramente por enquanto gostei de tudo Alberto, seu método de ensino é otimo e gostei que você é aberto a coisas novas, como por exemplo quando te mostrei o arquivo ipynb
+            </Typography>
+          </Box>
+        </Paper>
+
+        <Paper elevation={2} sx={{ display: 'flex', gap: 2, p: 2, mb: 2 }}>
+          <Box sx={{ minWidth: 80, textAlign: 'center' }}>
+            <Avatar alt="Larissa" src={camilla} sx={{ width: 60, height: 60, mx: 'auto', mb: 1 }} />
+            <Typography variant="body2"><strong>Camilla</strong></Typography>
+          </Box>
+          <Box sx={{ flex: 1 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
+              <DiPython size={24} color="#306998" />
+              <Typography variant="subtitle2"><strong>Python</strong></Typography>
+            </Box>
+            <Typography variant="body2" sx={{ textAlign: 'left' }}>
+              O Alberto é um excelente professor! Ele explica tudo de forma super descomplicada e tem uma didática incrível, o que faz com que, mesmo sendo nova na área, eu consiga entender tudo perfeitamente. Além disso, ele sempre disponibiliza material de estudo que facilita ainda mais o aprendizado. Estou aprendendo muito com ele!
             </Typography>
           </Box>
         </Paper>
